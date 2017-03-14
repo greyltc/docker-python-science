@@ -1,5 +1,5 @@
-FROM greyltc/archlinux
+FROM greyltc/archlinux-aur
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
-ADD install-python-sci.sh /usr/sbin/install-python-sci
-RUN install-python-sci
+ADD install-python2-sci.sh /usr/sbin/install-python2-sci
+RUN install-python2-sci
