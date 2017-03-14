@@ -21,3 +21,6 @@ su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pathos-3fix
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pyina-git'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-joblib'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-mystic'
+
+# reduce docker layer size
+cleanup-image
