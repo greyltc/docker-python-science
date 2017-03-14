@@ -12,7 +12,7 @@ pacman -S --noconfirm --noprogress --needed python2-sqlalchemy
 pacman -S --noconfirm --noprogress --needed python2-mpi4py
 
 # and some things from the AUR
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-rpyc'
+su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-rpyc-fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-dill'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pfft-fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox'
