@@ -2,7 +2,7 @@
 set -eu -o pipefail
 
 # install python2
-pacman -S python2
+pacman -S --noconfirm --noprogress --needed python2
 
 # install some scientific python things
 pacman -S --noconfirm --noprogress --needed python2-numpy
