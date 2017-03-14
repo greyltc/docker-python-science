@@ -12,16 +12,16 @@ pacman -S --noconfirm --noprogress --needed python2-sqlalchemy
 pacman -S --noconfirm --noprogress --needed python2-mpi4py
 
 # and some things from the AUR
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-rpyc-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-objgraph'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-dill-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-ppft-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-multiprocess-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pathos-3fix'
-#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pyina-git'
-#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-joblib'
-#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-mystic'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-rpyc-fix'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-objgraph'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-dill-fix'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-ppft-fix'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-multiprocess-fix'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-pox'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-pathos-3fix'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-pyina-git'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-joblib'
+su docker -c 'pacaur --noprogressbar --noedit --noconfirm python2-mystic'
 
 # reduce docker layer size
 cleanup-image
