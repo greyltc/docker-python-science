@@ -17,11 +17,11 @@ su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-objgraph'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-dill-fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-ppft-fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-multiprocess-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pathos-3fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pyina-git'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-joblib'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-mystic'
+#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox'
+#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pathos-3fix'
+#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pyina-git'
+#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-joblib'
+#su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-mystic'
 
 # reduce docker layer size
 cleanup-image
