@@ -15,7 +15,7 @@ pacman -S --noconfirm --noprogress --needed python2-mpi4py
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-rpyc'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-dill'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pfft-fix'
-su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox
+su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pox'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-multiprocess-fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pathos-3fix'
 su docker -c 'pacaur -m --noprogressbar --noedit --noconfirm python2-pyina-git'
